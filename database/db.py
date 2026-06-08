@@ -6,7 +6,7 @@ def get_connection():
         host="localhost",
         database="asm",
         user="postgres",
-        password="StrongPassword123"
+        password="postgrespass"
     )
 
     return conn
